@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<p align="left"> <img src="https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-goog/contentbuilder/GDG-Lockup-1Line-Black_vMWBFT9.svg" height="40"/> &nbsp;&nbsp; <img src="https://jtiik.ub.ac.id/public/site/images/other-logo/filkom.png" height="40"/> </p>
 
-## Getting Started
+# Study Jam #4 — Website Development
 
-First, run the development server:
+### *From Frontend to Backend: Next.js Meets Golang* | #ProductSeries
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🎯 Case Study
+
+Hands-on development of a **Todo App** as an implementation of frontend and backend integration.
+
+---
+
+## 📦 Repository
+
+This is the repository for the **Todo App frontend**.
+
+---
+
+## 📁 Important Structure
+
+Edit the main file at:
+
+```
+todo-app-fe/
+└── app/
+    └── app.tsx  <-- Edit here
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ⚙️ Prerequisites
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Make sure you have installed:
 
-## Learn More
+* Node.js (latest version recommended)
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🚀 Installation & Running
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Clone this repository
 
-## Deploy on Vercel
+   ```bash
+   git clone https://github.com/sulthonaw/todo-app-fe.git
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. Navigate to the project folder
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+   ```bash
+   cd todo-app-fe
+   ```
+
+3. Install dependencies
+
+   ```bash
+   npm install
+   ```
+
+4. Run the backend (separate repo: `todo-app-be`)
+
+5. Run the frontend
+
+   ```bash
+   npm run dev
+   ```
+
+---
+
+## 🔗 Notes
+
+* Make sure the backend (`todo-app-be`) is running before starting the frontend
+* By default, the frontend runs on:
+
+  ```
+  http://localhost:3000
+  ```
